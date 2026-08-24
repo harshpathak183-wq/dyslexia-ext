@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DevFocus</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 15px; width: 300px; margin: 0; background: #222; color: white; }
+        h3 { margin-top: 0; text-align: center; border-bottom: 1px solid #444; padding-bottom: 10px; }
+        .controls { display: flex; flex-wrap: wrap; gap: 8px; }
+        button { background: #007BFF; color: white; border: none; padding: 10px; border-radius: 5px; cursor: pointer; font-size: 13px; font-weight: bold; flex: 1 1 45%; transition: 0.2s; }
+        button:hover { background: #0056b3; }
+        button.active-btn { background: #28a745; } 
+    </style>
+</head>
+<body>
+    <h3>DevFocus Live Tools</h3>
+    <div class="controls">
+        <button id="btn-font">🔤 Font</button>
+        <button id="btn-tint">🎨 Tint</button>
+        <button id="btn-ruler">📏 Ruler</button>
+        <button id="btn-dict">📖 Dictionary</button>
+        <button id="btn-speech">🔊 Read Aloud</button> 
+        <button id="btn-img">🖼️ Image Detect</button>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
